@@ -45,6 +45,6 @@ sc029::Send,{``}  ;         半角/全角     → `
 $^@::                                           ; $^[とはしない。AutoHotkeyの設定よりもキーボード配列を優先して読み込むため、想定通り動作しない。（詳細不明）
  Send, ^[
  Sleep, 1
- Send, ^{Space}
+ Send, {vk1Dsc07B}
 
 return
